@@ -1,5 +1,6 @@
 * {
     --blue-light: #aec5eb;
+    --orange: #FF715B;
     color:black;
 }
 
@@ -12,4 +13,32 @@ body {
     text-align: center;
     /* Align items is vertical */
     align-items: center;
+}
+
+header {
+    display: flex;
+
+}
+
+. logo{
+        height: 150px;
+        width: 150px;
+        background-color: var(--orange);
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        border: black 5px;
+        border-radius: 50%;
+
+}
+
+.logo p {
+    background-color: black;
+    color: var(--orange)
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    border-radius: 20%;
+
+
 }
