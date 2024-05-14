@@ -73,7 +73,10 @@ nav a {
         display: flex;
         flex-wrap: wrap;
         gap: 20px;
-        justify-content: space-between;
+        justify-content: space-around;
+        text-align: center;
+        /* Align items is vertical */
+        align-items: center;
     }
 
     .training-option {
@@ -82,9 +85,11 @@ nav a {
     }
 
     .training-option img{
-        width: 25dvw;
+        /* width: 25dvw;
         height: 35dvh;
-        object-fit: cover;
+        */
+        width: 250px;
+        height: 250px;
     }
     
 }
